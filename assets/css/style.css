@@ -1,0 +1,223 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Main content should stretch to fill space */
+body {
+  font-family: "Poppins", serif;
+  background-color: #520840;
+}
+
+header{
+  background-color: #5d1048;
+}
+
+/* Marquee Styles */
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 0.9rem;
+}
+
+/* Background Color */
+.bg-purple {
+  background-color: #520440;
+}
+
+/* Navigation Menu */
+.nav-link {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-right: 1px solid #ffffff30;
+}
+
+.nav-link:last-child {
+  border-right: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Adjustments for Mobile Navigation */
+@media (max-width: 768px) {
+  .nav-link {
+    padding: 0.5rem 0;
+    text-align: center;
+  }
+}
+
+/* Big Screen Layout */
+@media (min-width: 768px) {
+  /* Flex for centering items on big screens */
+  .d-flex.justify-content-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .khelo-logo {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+/* Small Screen Layout */
+@media (max-width: 768px) {
+  .d-md-none {
+    display: block;
+  }
+  .khelo-logo {
+    display: none;
+  }
+}
+
+/* Footer Styles */
+footer {
+  background-color: #25081c;
+  color: white;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+footer hr {
+  border-color: rgba(255, 255, 255, 0.3);
+  margin: 1rem 0;
+}
+
+/* Footer Link Styles */
+footer a {
+  font-size: 0.9rem;
+}
+
+footer .badge {
+  font-size: 0.8rem;
+  padding: 0.5rem 0.7rem;
+}
+
+footer .btn img {
+  max-height: 70px;
+}
+
+footer small {
+  font-size: 0.8rem;
+}
+
+/* Responsive Adjustments for Footer */
+@media (max-width: 768px) {
+  footer .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .col-md-3,
+  footer .col-md-6 {
+    margin-bottom: 1rem;
+  }
+
+  footer .btn img {
+    max-height: 60px;
+  }
+}
+
+
+.card {
+  border-radius: 10px;
+}
+
+.card-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-body h3 {
+  font-size: 2rem;
+}
+
+.card-body h6 {
+  font-size: 1.2rem;
+}
+
+main {
+  background-image: url('../image/background/main-bg.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.jackpot-card {
+  background-image: url('../image/background/jackpot-bg.jpg'); 
+  background-size: 100% 100%; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100%; 
+  width: 100%; 
+}
+
+footer {
+  background-image: url('../image/background/footer-bg.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+header {
+  background-image: url('../image/background/header-bg.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.nav-menu {
+  background: linear-gradient(to bottom, #6e2d4f, #5c0f47); 
+  border: 1px solid #fff;
+  border-radius: 5px; 
+  overflow: hidden; 
+}
+
+.nav-menu .nav-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff; 
+  text-align: center; 
+  border-right: 1px solid #fff; 
+  transition: background-color 0.3s; 
+}
+
+.nav-menu .nav-link:last-child {
+  border-right: none; 
+}
+
+.nav-menu .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.3); 
+  text-decoration: none; 
+}
+
+.nav-menu {
+  padding: 0; 
+}
+
+.nav-menu .nav-link {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  height: 50px; 
+  font-weight: bold; 
+  font-size: 14px; 
+}
+
+
+.table thead th {
+  background-color: #6b4d80;
+  color: #fff;
+}
+
+.table tbody td {
+  background-color: #f3e6f5;
+}
+
+.table {
+  border: 2px solid #6b4d80;
+}
